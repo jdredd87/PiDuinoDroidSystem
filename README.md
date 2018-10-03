@@ -12,7 +12,9 @@ So I figured I would try and tie this all up together making it overly complicat
 This is built to be customized to my home setup. So no easy to use interfaces to add/remove/configure ect. All will be hard coded. At least in the very beginning to get stuff actually working. But I hope it gives people an idea down the road what can be done.
 
 <b>Arduino IDE</b> for Arduino Programming
+
 <b>Embarcadero Delphi</b> for any and all Android/iOS/Win32 Programming
+
 <b>FreePascal / Lazarus</b> for ARM Linux Programming
 
 ------------------------------------
