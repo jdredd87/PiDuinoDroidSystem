@@ -19,12 +19,9 @@ This is built to be customized to my home setup. So no easy to use interfaces to
 
 ------------------------------------
 
-<b>Arduino.GarageOpener</b> - Arduino Nano - Controller for running relays and DHT11 Temp/Humidity Sensor
+<b>Arduino.GarageOpener</b> - Arduino Nano - Controller for running relays, DHT11 Temp/Humidity Sensor, and RCWL Microwave Radar motion sensor.
 
-<b>PiServer.GarageOpener</b> - Pi 3 B+ - 3.5" Touch Screen Pi running a REST WebServer to allow incoming connection calls. Communicates USB>Serial to Arduino.GarageOpener.
+<b>PiServer.GarageOpener</b> - Pi 3 B+ - 3.5" Touch Screen Pi running a simple HTTP Web Server to allow incoming connection calls. Communicates USB>Serial to Arduino.GarageOpener.
 
-<b>Arduino.SecurityBox</b> - Arduino Mega For Android Board - Controller for door sensors, motion sensor, alarm.
-
-<b>Android.SecurityBox</b> - Android - UI Interface to Arduino.SecurityBox via USB to USB.
 
 
