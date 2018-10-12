@@ -1,15 +1,13 @@
 # PiDuinoDroidSystem
-My DIY Home Garage Opener and Security System ( Ties into my houses old Security System sensors/alarm )
+My DIY Home Garage Opener 
 
-My "new" home has an old 22 year old security system that isn't being used.
+I have a "dumb" garage door opener system, and doing small tests, was able to open them with an Arduino and relays.
 
-Doing initial testing, I was able to interface with sensors doing small tests.
+So I figured I would try and tie this all up together making it overly complicated with Pi's and Arduinos and other parts that I already had laying around.
 
-I also have a "dumb" garage door openers, and doing small tests, was able to open them with an Arduino and relays.
+This is built to be customized to my setup. So no easy to use interfaces to add/remove/configure ect. All will be hard coded. At least in the very beginning to get stuff actually working. But I hope it gives people an idea down the road what can be done.
 
-So I figured I would try and tie this all up together making it overly complicated with a bunch of Pi's and Arduinos and other parts that I already had laying around.
-
-This is built to be customized to my home setup. So no easy to use interfaces to add/remove/configure ect. All will be hard coded. At least in the very beginning to get stuff actually working. But I hope it gives people an idea down the road what can be done.
+Some things I will be long hand coding until I am happy then will see about going back around to optimize. 
 
 <b>Arduino IDE</b> for Arduino Programming
 
