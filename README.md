@@ -56,5 +56,21 @@ Arduino Side - Parts List
 
 Bread board and wires....
 
+--------------------------------------
+Raspberry Pi Side - Parts List
+--------------------------------------
 
+<b>Raspberry Pi 3 B+</b> https://www.adafruit.com/product/3775?gclid=CjwKCAjwjIHeBRAnEiwAhYT2h9VmcdKUHQMfaMPVxf_UVYF8soZdEQLZq4ty0Nue1fsj5kMxVL4vxhoCd9gQAvD_BwE
+
+<b>3.5" TFT Screen</b> https://www.adafruit.com/product/2441
+
+--------------------------------------
+Guides / Help / Components used for the Pi / Lazarus
+--------------------------------------
+
+<b>FreePascal / Lazarus</b>
+https://backports.debian.org/Instructions/ <---- needed to run latest FPC/Lazarus
+https://forum.lazarus.freepascal.org/index.php/topic,38728.15.html <---- when I had issues installing components
+https://github.com/JurassicPork/TLazSerial <---- Serial Port component for Lazarus / Linux
+http://wiki.freepascal.org/Indy_with_Lazarus <---- INDY components for Lazarus
 
