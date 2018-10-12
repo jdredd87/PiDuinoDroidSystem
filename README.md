@@ -29,10 +29,15 @@ Development progress Videos
 --------------------------------------
 
 https://www.youtube.com/watch?v=vZCPzQGDBzw
+
 https://www.youtube.com/watch?v=oDaqcbC0SLI
+
 https://www.youtube.com/watch?v=zTPaBP4n-cU
+
 https://www.youtube.com/watch?v=LNig2HaAZyQ
+
 https://www.youtube.com/watch?v=iCGkV5GjvTM
+
 
 --------------------------------------
 Arduino Side - Parts List
