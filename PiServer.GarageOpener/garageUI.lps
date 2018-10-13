@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="12">
+      <Unit0>
+        <Filename Value="garageUI.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="27" Y="18"/>
+        <UsageCount Value="145"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="frm_mainmenu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frm_MainMenu"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="18"/>
+        <CursorPos X="43" Y="34"/>
+        <UsageCount Value="145"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="io.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="14"/>
+        <UsageCount Value="145"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="/usr/lib/lazarus/1.8.4/ide/lazarus.pp"/>
+        <UnitName Value="Lazarus"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../.lazarus/onlinepackagemanager/packages/Indy10/System/IdGlobal.pas"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="1872"/>
+        <CursorPos X="45" Y="1890"/>
+        <UsageCount Value="56"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../.lazarus/onlinepackagemanager/packages/Indy10/examples/httpget/httpget.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="81"/>
+        <CursorPos X="29" Y="97"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../.lazarus/onlinepackagemanager/packages/Indy10/Protocols/IdCustomHTTPServer.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="247"/>
+        <CursorPos X="3" Y="250"/>
+        <UsageCount Value="3"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../.lazarus/onlinepackagemanager/packages/Indy10/System/IdStack.pas"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="955"/>
+        <CursorPos Y="971"/>
+        <UsageCount Value="54"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="/usr/lib/lazarus/1.8.4/lcl/forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="746"/>
+        <CursorPos X="34" Y="760"/>
+        <UsageCount Value="1"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../.lazarus/onlinepackagemanager/packages/Indy10/Core/IdIOHandler.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="2205"/>
+        <CursorPos X="35" Y="2208"/>
+        <UsageCount Value="54"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/packages/fcl-process/src/process.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="23" Y="46"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../TLazSerial/lazserial.pas"/>
+        <UnitName Value="LazSerial"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="321"/>
+        <CursorPos X="33" Y="349"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit11>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="../TLazSerial/lazserial.pas"/>
+        <Caret Line="52" TopLine="52"/>
+      </Position1>
+      <Position2>
+        <Filename Value="../TLazSerial/lazserial.pas"/>
+        <Caret Line="69" Column="62" TopLine="52"/>
+      </Position2>
+      <Position3>
+        <Filename Value="../TLazSerial/lazserial.pas"/>
+        <Caret Line="72" Column="43" TopLine="52"/>
+      </Position3>
+      <Position4>
+        <Filename Value="../TLazSerial/lazserial.pas"/>
+        <Caret Line="77" Column="68" TopLine="52"/>
+      </Position4>
+      <Position5>
+        <Filename Value="../TLazSerial/lazserial.pas"/>
+        <Caret Line="91" Column="32" TopLine="67"/>
+      </Position5>
+      <Position6>
+        <Filename Value="../TLazSerial/lazserial.pas"/>
+      </Position6>
+      <Position7>
+        <Filename Value="../TLazSerial/lazserial.pas"/>
+        <Caret Line="67" Column="12" TopLine="39"/>
+      </Position7>
+      <Position8>
+        <Filename Value="../TLazSerial/lazserial.pas"/>
+        <Caret Line="76" Column="13" TopLine="48"/>
+      </Position8>
+      <Position9>
+        <Filename Value="../TLazSerial/lazserial.pas"/>
+        <Caret Line="91" Column="32" TopLine="63"/>
+      </Position9>
+      <Position10>
+        <Filename Value="../TLazSerial/lazserial.pas"/>
+        <Caret Line="99" Column="32" TopLine="71"/>
+      </Position10>
+      <Position11>
+        <Filename Value="../TLazSerial/lazserial.pas"/>
+        <Caret Line="131" Column="25" TopLine="103"/>
+      </Position11>
+      <Position12>
+        <Filename Value="../TLazSerial/lazserial.pas"/>
+        <Caret Line="168" Column="26" TopLine="141"/>
+      </Position12>
+      <Position13>
+        <Filename Value="../TLazSerial/lazserial.pas"/>
+        <Caret Line="206" Column="33" TopLine="178"/>
+      </Position13>
+      <Position14>
+        <Filename Value="frm_mainmenu.pas"/>
+        <Caret Line="114" Column="57" TopLine="86"/>
+      </Position14>
+      <Position15>
+        <Filename Value="frm_mainmenu.pas"/>
+      </Position15>
+      <Position16>
+        <Filename Value="frm_mainmenu.pas"/>
+        <Caret Line="92" Column="23" TopLine="64"/>
+      </Position16>
+      <Position17>
+        <Filename Value="frm_mainmenu.pas"/>
+        <Caret Line="98" Column="20" TopLine="70"/>
+      </Position17>
+      <Position18>
+        <Filename Value="frm_mainmenu.pas"/>
+        <Caret Line="99" Column="23" TopLine="71"/>
+      </Position18>
+      <Position19>
+        <Filename Value="frm_mainmenu.pas"/>
+        <Caret Line="100" Column="21" TopLine="72"/>
+      </Position19>
+      <Position20>
+        <Filename Value="frm_mainmenu.pas"/>
+        <Caret Line="101" Column="22" TopLine="73"/>
+      </Position20>
+      <Position21>
+        <Filename Value="frm_mainmenu.pas"/>
+        <Caret Line="102" Column="21" TopLine="74"/>
+      </Position21>
+      <Position22>
+        <Filename Value="frm_mainmenu.pas"/>
+        <Caret Line="89" Column="29" TopLine="77"/>
+      </Position22>
+      <Position23>
+        <Filename Value="frm_mainmenu.pas"/>
+      </Position23>
+      <Position24>
+        <Filename Value="frm_mainmenu.pas"/>
+        <Caret Line="85" Column="27" TopLine="57"/>
+      </Position24>
+      <Position25>
+        <Filename Value="frm_mainmenu.pas"/>
+        <Caret Line="83" Column="29" TopLine="74"/>
+      </Position25>
+      <Position26>
+        <Filename Value="frm_mainmenu.pas"/>
+        <Caret Line="85" Column="27" TopLine="74"/>
+      </Position26>
+      <Position27>
+        <Filename Value="frm_mainmenu.pas"/>
+        <Caret Line="91" Column="28" TopLine="74"/>
+      </Position27>
+      <Position28>
+        <Filename Value="frm_mainmenu.pas"/>
+        <Caret Line="109" Column="12" TopLine="92"/>
+      </Position28>
+      <Position29>
+        <Filename Value="frm_mainmenu.pas"/>
+        <Caret Line="413" Column="41" TopLine="405"/>
+      </Position29>
+      <Position30>
+        <Filename Value="frm_mainmenu.pas"/>
+        <Caret Line="117" Column="64" TopLine="93"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
