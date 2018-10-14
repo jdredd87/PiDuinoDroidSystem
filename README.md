@@ -63,6 +63,14 @@ Raspberry Pi Side - Parts List
 <b>3.5" TFT Screen</b> https://www.adafruit.com/product/2441
 
 --------------------------------------
+Recommend to add this to possibly fix any WIFI dropping over time.
+--------------------------------------
+
+added to /etc/rc.local:
+
+iwconfig wlan0 power off
+
+--------------------------------------
 Guides / Help / Components used for the Pi / Lazarus
 --------------------------------------
 
