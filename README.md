@@ -80,3 +80,9 @@ https://forum.lazarus.freepascal.org/index.php/topic,38728.15.html <---- when I 
 https://github.com/JurassicPork/TLazSerial <---- Serial Port component for Lazarus / Linux
 http://wiki.freepascal.org/Indy_with_Lazarus <---- INDY components for Lazarus
 
+--------------------------------------
+Wiring Diagram
+--------------------------------------
+
+
+[[https://github.com/jdredd87/PiDuinoDroidSystem/blob/master/Wiring-Diagram.png|alt=wiring]]
