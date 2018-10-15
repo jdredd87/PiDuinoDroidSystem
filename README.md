@@ -85,4 +85,6 @@ Wiring Diagram
 --------------------------------------
 
 
-[[https://github.com/jdredd87/PiDuinoDroidSystem/blob/master/Wiring-Diagram.png|alt=wiring]]
+![alt text](https://github.com/jdredd87/PiDuinoDroidSystem/blob/master/Wiring-Diagram.png)
+
+
