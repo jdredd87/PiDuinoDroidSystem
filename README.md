@@ -88,3 +88,12 @@ Wiring Diagram
 ![alt text](https://github.com/jdredd87/PiDuinoDroidSystem/blob/master/Wiring-Diagram.png)
 
 
+---------------------------------------
+AlexaPi
+---------------------------------------
+Stages of adding Alexa / Alexa Skills
+
+Get AlexaPi @ https://github.com/alexa-pi/AlexaPi/
+It will require some tinkering to get it working.
+
+Once I figure out Alexa Skill support will add that here next.
