@@ -36,6 +36,7 @@ https://www.youtube.com/watch?v=LNig2HaAZyQ
 
 https://www.youtube.com/watch?v=iCGkV5GjvTM
 
+https://www.youtube.com/watch?v=ZfYh1aCadxk
 
 --------------------------------------
 Arduino Side - Parts List
