@@ -50,8 +50,8 @@ uses
 
 const
   _init = '%init%';
-  _dht11error = '%dht11error%';
-  _dht11data = '%dht11data%';
+  _dht22error = '%dhterror%';
+  _dht22data = '%dhtdata%';
   _magsensors = '%magsensor%';
   _build = '%build%';
   _msg = '%msg%';
@@ -60,7 +60,7 @@ const
 
   // ID / PassPhrase
 
-  _myID = '767D299B-AACD-47F2-955F-F1C28973C289'; // can be anything really
+  _myID = '12345ABC'; // can be anything really
 
   // Strings
   _Opened = 'Opened';
@@ -135,7 +135,7 @@ type
     isLeftDoorOpen: boolean;
     isRightDoorOpen: boolean;
     isScreenON: boolean;
-    hasDHT11error: boolean;
+    hasdht22error: boolean;
     CS: TRTLCriticalSection;
     procedure processPacket(inputData: string);
   public
@@ -168,7 +168,7 @@ begin
   isRightDoorWorking := False;
   isLeftDoorOpen := False;
   isRightDoorOpen := False;
-  hasDHT11error := False;
+  hasdht22error := False;
   isScreenOn := True;
 end;
 
@@ -438,23 +438,23 @@ procedure TfrmMain.processPacket(inputData: string);
     lbl_msg.Caption := inputData;
   end;
 
-  procedure dht11error;
+  procedure dht22error;
   begin
-    hasDHT11error := True;
-    inputData := Stringreplace(inputData, _dht11error, '', [rfreplaceall]);
-    lbl_msg.Caption := _dht11error;
+    hasdht22error := True;
+    inputData := Stringreplace(inputData, _dht22error, '', [rfreplaceall]);
+    lbl_msg.Caption := _dht22error;
   end;
 
-  procedure dht11data;
+  procedure dht22data;
   var
     dataBlock: TStringList;
   begin
 
-    if hasDHT11error then
+    if hasdht22error then
       lbl_msg.Caption := 'Waiting...';
 
-    hasDHT11error := False;
-    inputData := Stringreplace(inputData, _dht11data, '', [rfreplaceall]);
+    hasdht22error := False;
+    inputData := Stringreplace(inputData, _dht22data, '', [rfreplaceall]);
 
     if OccurrencesOfChar(inputData, ';') = 2 then
     begin
@@ -579,11 +579,11 @@ begin
     if pos(_init, inputData) > 0 then
       init
     else
-    if pos(_dht11error, inputData) > 0 then
-      dht11error
+    if pos(_dht22error, inputData) > 0 then
+      dht22error
     else
-    if pos(_dht11data, inputData) > 0 then
-      dht11data
+    if pos(_dht22data, inputData) > 0 then
+      dht22data
     else
     if pos(_magsensors, inputData) > 0 then
       magsensors

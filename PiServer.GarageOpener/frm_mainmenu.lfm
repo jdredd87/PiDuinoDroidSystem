@@ -332,7 +332,7 @@ object frmMain: TfrmMain
   end
   object serial: TLazSerial
     Active = False
-    BaudRate = br__9600
+    BaudRate = br115200
     DataBits = db8bits
     Parity = pNone
     FlowControl = fcNone
