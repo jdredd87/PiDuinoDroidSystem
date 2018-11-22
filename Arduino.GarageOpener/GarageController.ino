@@ -11,12 +11,13 @@
 /* Hardware used for this.
 
    Arduino NANO
-   DHT11 Temperature / Humdity Sensor  ( this may switch to DHT22 or better )
+   DHT22 Temperature / Humdity Sensor  
    RCWL-0516 Microwave Radar Sensor ( toggle pi that there is motion near by to enable touch screen )
    Isolated Dual Relay ( toggle garage doors to open or close )
    Piezo Buzzer ( make tones )
    Two Magnetic Door Switches ( used to detect garage door is opened or closed )
 */
+
 
 /*
   Controller Input Codes
@@ -39,8 +40,8 @@
       %relay2%
   4 = %magsensor%messagetext = door1;door2 states
   R = %init%messagetext
-  T = %dht11error%messagetext = DHT11 sensor error message
-  T = %dht11data%messagetext = DHT11 sensor data, *F;*C;Humidity%
+  T = %dhterror%messagetext = DHT22 sensor error message
+  T = %dhtdata%messagetext = DHT22 sensor data, *F;*C;Humidity%
   S = %sound%1 = sounds on
   M = %sound%0 = sounds off
   A = %sound%1 or %sound%0
@@ -58,7 +59,7 @@
 #define buzzerPin 3
 #define magnet1Pin 7
 #define magnet2Pin 8
-#define DHT11Pin 9
+#define DHT22Pin 9
 #define motionPin 2
 
 int build = 1; // build version that will show up on the pi
@@ -69,21 +70,21 @@ int relay2Pin = A1; // garage door relay 2
 int magState1; // garage door 1 magnet door sensor
 int magState2; // garage door 2 magnet door sensor
 
-int DHTerr; // DHT11 Temp sensor error
+int DHTerr; // DHT22 Temp sensor error
 
 int motionVal = 0; // RCWL motion sensor value
 
 double motionCheck = 0; // Dummy counter to delay motion sensing ( could a resistor maybe to adjust sensativty and skip this )
 
-byte temperatureF = 0; // DHT11 temp in *F
-byte temperatureC = 0; // DHT11 temp in *C
-byte humidity = 0; // DHT11 humidity in %
+byte temperatureF = 0; // DHT22 temp in *F
+byte temperatureC = 0; // DHT22 temp in *C
+byte humidity = 0; // DHT22 humidity in %
 
 bool useSound = false; // toggle buzzer sound
 
 /* Setup Arduino */
 
-SimpleDHT11 dht11(DHT11Pin);
+SimpleDHT22 dht22(DHT22Pin);
 
 void setup() {
 
@@ -96,7 +97,7 @@ void setup() {
   digitalWrite(relay1Pin, HIGH); // set relays so they are open
   digitalWrite(relay2Pin, HIGH);
 
-  Serial.begin(9600);
+  Serial.begin(115200);
   Serial.flush();
 
   Serial.println("%init%Starting Garage Door Service");
@@ -245,13 +246,13 @@ void loop() {
       temperatureF = 255;
       temperatureC = 255;
       humidity = 255;
-      if ((DHTerr = dht11.read(&temperatureC, &humidity, NULL)) != SimpleDHTErrSuccess) {
-        Serial.print("%dht11error%");
+      if ((DHTerr = dht22.read(&temperatureC, &humidity, NULL)) != SimpleDHTErrSuccess) {
+        Serial.print("%dhterror%");
         Serial.println(DHTerr);
       } else
       {
         temperatureF = round((1.8 * temperatureC) + 32);
-        Serial.print("%dht11data%");
+        Serial.print("%dhtdata%");
         Serial.print((int)temperatureF); Serial.print(';');
         Serial.print((int)temperatureC); Serial.print(';');
         Serial.println((int)humidity);
