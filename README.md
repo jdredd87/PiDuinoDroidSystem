@@ -1,6 +1,10 @@
 # PiDuinoDroidSystem
 My DIY Home Garage Opener 
 
+* Main purpose of this was to not only build a possibly over complex garage door opener, but to mix a few technologies together.
+* Delphi FMX, FreePascal, Rasperry Pi and Arduino hardware *
+* To show how these different peices could be used in a close system together *
+
 I have a "dumb" garage door opener system, and doing small tests, was able to open them with an Arduino and relays.
 
 So I figured I would try and tie this all up together making it overly complicated with Pi's and Arduinos and other parts that I already had laying around.
